@@ -13,3 +13,86 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio
+/.idea
+*.iml
+*.hprof
+
+# Keystore files
+*.jks
+
+# External native build folder generated in Android Studio 2.2+
+.cxx/
+
+# NDK
+obj/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.gradle
+.idea
+local.properties
+*.log
+.gradle
+.idea
+local.properties
+*.log
+
+# Gradle
+/build/
+/build/
+gradle-app.setting
+
+# Signed APKs
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+/generated/
+
+# IntelliJ
+*.iml
+.idea
+*.iws
+.idea/
+
+#Lint
+lint/intermediates/
+
+# Android Studio
+/build/
+.idea
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Misc
+.DS_Store
+build/
+.idea/
+.gradle/
+local.properties
+app/build/
+
