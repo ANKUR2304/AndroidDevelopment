@@ -7,3 +7,6 @@ Used:
 - EditText
 - Button
 - Toast
+
+Note:
+- Variable Accessibility
