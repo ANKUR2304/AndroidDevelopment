@@ -5,3 +5,6 @@ Used:
 - TextView
 - Button
 
+Note:
+- Using functions for different purposes. 
+
