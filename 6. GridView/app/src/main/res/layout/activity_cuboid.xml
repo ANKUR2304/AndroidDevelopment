@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bg3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuboidActivity">
+
+    <EditText
+        android:id="@+id/inputSide1ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:layout_marginTop="144dp"
+        android:hint="Please enter first side of Cuboid!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputSide2ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:layout_marginTop="20dp"
+        android:hint="Please enter second side of Cuboid!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputSide1ET" />
+
+    <EditText
+        android:id="@+id/inputSide3ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:layout_marginTop="20dp"
+        android:hint="Please enter third side of Cuboid!"
+        app:layout_constraintTop_toBottomOf="@+id/inputSide2ET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/findVolBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Find Vol.!"
+        app:layout_constraintEnd_toEndOf="@+id/inputSide2ET"
+        app:layout_constraintStart_toStartOf="@+id/inputSide2ET"
+        app:layout_constraintTop_toBottomOf="@+id/inputSide3ET" />
+
+    <TextView
+        android:id="@+id/volumeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="@+id/findVolBtn"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="@+id/findVolBtn"
+        app:layout_constraintTop_toBottomOf="@+id/findVolBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

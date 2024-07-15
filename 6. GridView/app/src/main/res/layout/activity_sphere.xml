@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bg4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SphereActivity">
+
+    <EditText
+        android:id="@+id/inputRadiusET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:hint="Please enter radius of Sphere!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/findVolBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Find Vol.!"
+        app:layout_constraintEnd_toEndOf="@+id/inputRadiusET"
+        app:layout_constraintStart_toStartOf="@+id/inputRadiusET"
+        app:layout_constraintTop_toBottomOf="@+id/inputRadiusET" />
+
+    <TextView
+        android:id="@+id/volumeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="@+id/findVolBtn"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="@+id/findVolBtn"
+        app:layout_constraintTop_toBottomOf="@+id/findVolBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
