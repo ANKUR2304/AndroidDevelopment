@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Can't use simple Data-Binding with primitive data-types
         // Because multiple inheritance is not allowed in Java
-        // Although we can use Observable fields or LiveData with ViewModel
+        // Although we can use Observable fields or LiveData with ViewModel (for Data-Binding)
         counterTV = findViewById(R.id.counterTV);
         incraseCountBtn = findViewById(R.id.increaseCountBtn);
         mainActivityViewModel = new ViewModelProvider(this).get(MainActivityViewModel.class);
